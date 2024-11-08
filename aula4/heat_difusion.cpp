@@ -26,7 +26,7 @@ double heat_difusion() {
 	double dt = 0.1; //seconds
 	
 	while (t < t_f) {
-		for ( int k = 0; k < N-2 ; k++) {
+		for ( int k = 0; k < N-3 ; k++) {
 			T_n1[ k ] = T_n[ k ] + (T_n [k + 2 ] - 2.0 * T_n [ k + 1 ] + T_n [ k ]) * dt / alpha_gold;
 		}
 		std::cout << "t = " << t << " " << " T(t) = " << T_n[ int(N / 2) ] << std::endl;
