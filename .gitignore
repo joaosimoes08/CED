@@ -1,3 +1,4 @@
 #Ignore compiled programs
 
-aula3
+*.o
+farao
