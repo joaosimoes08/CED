@@ -23,7 +23,7 @@ double heat_difusion() {
 	T_n[ 0 ] = 100.0; // warming up temperature on one edge
 	T_n[ N-2 ] = 100.0; //warming up temperature on other edge	
 	//time representation of each iteration in time
-	double dt = 0.1; //seconds
+	double dt = 1.0; //seconds
 	
 	while (t < t_f) {
 		for ( int k = 0; k < N-3 ; k++) {
