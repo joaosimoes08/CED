@@ -1,0 +1,3 @@
+/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles/farao.dir
+/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles/edit_cache.dir
+/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles/rebuild_cache.dir

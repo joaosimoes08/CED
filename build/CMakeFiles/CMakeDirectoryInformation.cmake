@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/alunos/tei/2024/tei27373/workspace/CED/heat")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/alunos/tei/2024/tei27373/workspace/CED")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/alunos/tei/2024/tei27373/workspace/CED/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

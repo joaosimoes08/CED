@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/heat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED
+CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/farao.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/farao.dir/progress.make
 include CMakeFiles/farao.dir/flags.make
 
 CMakeFiles/farao.dir/farao.cpp.o: CMakeFiles/farao.dir/flags.make
-CMakeFiles/farao.dir/farao.cpp.o: heat/farao.cpp
+CMakeFiles/farao.dir/farao.cpp.o: /home/alunos/tei/2024/tei27373/workspace/CED/heat/farao.cpp
 CMakeFiles/farao.dir/farao.cpp.o: CMakeFiles/farao.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/farao.dir/farao.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/farao.dir/farao.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/farao.dir/farao.cpp.o -MF CMakeFiles/farao.dir/farao.cpp.o.d -o CMakeFiles/farao.dir/farao.cpp.o -c /home/alunos/tei/2024/tei27373/workspace/CED/heat/farao.cpp
 
 CMakeFiles/farao.dir/farao.cpp.i: cmake_force
@@ -84,9 +84,9 @@ CMakeFiles/farao.dir/farao.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alunos/tei/2024/tei27373/workspace/CED/heat/farao.cpp -o CMakeFiles/farao.dir/farao.cpp.s
 
 CMakeFiles/farao.dir/f.cpp.o: CMakeFiles/farao.dir/flags.make
-CMakeFiles/farao.dir/f.cpp.o: heat/f.cpp
+CMakeFiles/farao.dir/f.cpp.o: /home/alunos/tei/2024/tei27373/workspace/CED/heat/f.cpp
 CMakeFiles/farao.dir/f.cpp.o: CMakeFiles/farao.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/farao.dir/f.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/farao.dir/f.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/farao.dir/f.cpp.o -MF CMakeFiles/farao.dir/f.cpp.o.d -o CMakeFiles/farao.dir/f.cpp.o -c /home/alunos/tei/2024/tei27373/workspace/CED/heat/f.cpp
 
 CMakeFiles/farao.dir/f.cpp.i: cmake_force
@@ -98,9 +98,9 @@ CMakeFiles/farao.dir/f.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alunos/tei/2024/tei27373/workspace/CED/heat/f.cpp -o CMakeFiles/farao.dir/f.cpp.s
 
 CMakeFiles/farao.dir/soma_integral.cpp.o: CMakeFiles/farao.dir/flags.make
-CMakeFiles/farao.dir/soma_integral.cpp.o: heat/soma_integral.cpp
+CMakeFiles/farao.dir/soma_integral.cpp.o: /home/alunos/tei/2024/tei27373/workspace/CED/heat/soma_integral.cpp
 CMakeFiles/farao.dir/soma_integral.cpp.o: CMakeFiles/farao.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/farao.dir/soma_integral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/farao.dir/soma_integral.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/farao.dir/soma_integral.cpp.o -MF CMakeFiles/farao.dir/soma_integral.cpp.o.d -o CMakeFiles/farao.dir/soma_integral.cpp.o -c /home/alunos/tei/2024/tei27373/workspace/CED/heat/soma_integral.cpp
 
 CMakeFiles/farao.dir/soma_integral.cpp.i: cmake_force
@@ -112,9 +112,9 @@ CMakeFiles/farao.dir/soma_integral.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alunos/tei/2024/tei27373/workspace/CED/heat/soma_integral.cpp -o CMakeFiles/farao.dir/soma_integral.cpp.s
 
 CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o: CMakeFiles/farao.dir/flags.make
-CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o: heat/heat_diffusion_2d.cpp
+CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o: /home/alunos/tei/2024/tei27373/workspace/CED/heat/heat_diffusion_2d.cpp
 CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o: CMakeFiles/farao.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o -MF CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o.d -o CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o -c /home/alunos/tei/2024/tei27373/workspace/CED/heat/heat_diffusion_2d.cpp
 
 CMakeFiles/farao.dir/heat_diffusion_2d.cpp.i: cmake_force
@@ -141,7 +141,7 @@ farao: CMakeFiles/farao.dir/soma_integral.cpp.o
 farao: CMakeFiles/farao.dir/heat_diffusion_2d.cpp.o
 farao: CMakeFiles/farao.dir/build.make
 farao: CMakeFiles/farao.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable farao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable farao"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/farao.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/farao.dir/clean:
 .PHONY : CMakeFiles/farao.dir/clean
 
 CMakeFiles/farao.dir/depend:
-	cd /home/alunos/tei/2024/tei27373/workspace/CED && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alunos/tei/2024/tei27373/workspace/CED/heat /home/alunos/tei/2024/tei27373/workspace/CED/heat /home/alunos/tei/2024/tei27373/workspace/CED /home/alunos/tei/2024/tei27373/workspace/CED /home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles/farao.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alunos/tei/2024/tei27373/workspace/CED/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alunos/tei/2024/tei27373/workspace/CED/heat /home/alunos/tei/2024/tei27373/workspace/CED/heat /home/alunos/tei/2024/tei27373/workspace/CED/build /home/alunos/tei/2024/tei27373/workspace/CED/build /home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles/farao.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/farao.dir/depend
 

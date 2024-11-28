@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/heat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED
+CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/farao.dir/clean
 CMakeFiles/farao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/farao.dir/build.make CMakeFiles/farao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/farao.dir/build.make CMakeFiles/farao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles --progress-num=1,2,3,4,5 "Built target farao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target farao"
 .PHONY : CMakeFiles/farao.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/farao.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/farao.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles 0
 .PHONY : CMakeFiles/farao.dir/rule
 
 # Convenience name for target.

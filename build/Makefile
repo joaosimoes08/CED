@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/heat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED
+CMAKE_BINARY_DIR = /home/alunos/tei/2024/tei27373/workspace/CED/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles /home/alunos/tei/2024/tei27373/workspace/CED//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles /home/alunos/tei/2024/tei27373/workspace/CED/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alunos/tei/2024/tei27373/workspace/CED/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
